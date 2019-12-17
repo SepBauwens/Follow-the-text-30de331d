@@ -1,0 +1,22 @@
+
+
+div.icon{
+	position: absolute;
+	top: 25px; left: 700px;
+	position: fixed;
+}
+
+
+div.tooltip-content{
+	position: absolute; top: 60px; left: -0px; 
+	background-color: black;
+	padding: 10px;
+	display: none;
+	color: white;
+	position: fixed;
+}
+
+div.icon:hover + div.tooltip-content {
+	display: block;
+}
+
